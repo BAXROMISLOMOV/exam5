@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+  
+}
+body {
+  margin: 0 auto;
+    max-width: 1440px;
+    background-color: #121212;
+    color: #fff;
+    padding-top:88px;
+    padding-left: 205px;
+    padding-right: 75px;
+  }
+
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 54px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:  rgba(148, 148, 148, 1);
+    font-size: 25px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  nav a:active {
+    color: #fff;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid #fff;
+  }
+  nav ul li a.active {
+    color: #007bff;
+    font-weight: bold;
+  }
+
+header{
+    text-align: center;
+    margin-bottom: 120px;    
+    margin-top: 111px;
+}
+
+header h1{
+    font-size: 50px;
+    color: #d4e157;
+    margin-bottom: 20px;
+}
+
+header p{ 
+    color: rgba(148, 148, 148, 1);
+    font-size: 25px;
+} 
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+
+      
+      .setup {
+        display: grid;
+        gap: 20px;
+    
+
+      }
+      .image{
+        margin-bottom: 128px;
+      }
+      .image img {
+        max-width: 100%;
+        border-radius: 10px;
+        padding-left: 30%;
+        
+      }
+      
+      .details {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 61px;
+        margin-left: 25%;
+      }
+   
+      
+      .specs h2 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 30px;
+      }
+      
+      .specs ul {
+        text-align: left;
+        margin: 0 auto;
+        width: max-content;
+      }
+      
+      .specs li {
+        margin-bottom: 5px;
+       
+      }
+      
+      .specs a {
+        text-decoration: none;
+        color: #d4e157;
+        font-size: 25px;
+      }
+      
+      .accessories {
+        margin-top: 20px;
+        margin-left:  200px;
+        
+      }
+      
+      .accessories h3 {
+        font-size: 30px;
+        color: #ffffff;
+        margin-bottom: 10px;
+      }
+       
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-top: 190px;
+    
+
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    font-size: 35px;
+
+  }
+  
+  footer span {
+    color: red;
+  }
+     
+      
+      .accessories li {
+        margin-bottom: 5px;
+      }
+       
+      .accessories a {
+        color: #d4e157;
+        text-decoration: none;
+        padding-right: 50%;
+        font-size: 25px;
+        
+      }
+      
+      
+      
+   

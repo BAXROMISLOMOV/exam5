@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+  }
+  
+  body {
+    background-color: #121212;
+  }
+  .container{
+    max-width: 1440px;
+    font-family: Arial, sans-serif;
+     margin: 0 auto;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+    
+  }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      align-items: center;
+      font-family: Montserrat;
+      margin-top: 85px;
+  
+  
+    }
+ 
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+  
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 54px;
+      margin: 0;
+      padding: 0;
+    }
+     
+    
+    nav a {
+      text-decoration: none;
+      color:  rgba(148, 148, 148, 1);
+      font-size: 25px;
+      
+    }
+    
+    nav a:hover {
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    nav a:active {
+      color: #0044ff;
+      transition: color 0.3s ease;
+      border-bottom: 1px solid #fff;
+    }
+
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+  }
+  
+  header h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size:35px;
+    color: #d4e157;
+  }
+  
+  main {
+    display: grid;
+    gap: 40px;
+  }
+  
+  .portfolio-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .content {
+    max-width: 500px;
+  }
+  
+  .content h2 {
+    font-size:35px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+    color: #bbb;
+    font-size: 20px;
+    padding-top: 29px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .buttons .source {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  .buttons .demo {
+    background-color: #d4e157;
+    color: #121212;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-top: 190px;
+    font-size: 35px;
+    font-weight: 562px;
+
+  }
+  
+  footer p {
+    font-size: 25px;
+  }
+  
+  footer span {
+    color: red;
+  }
+  .portfolio{
+    margin-left: 164px;
+  }
+ 
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+
+.action-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.add-btn {
+  background-color: #d4e157;
+  color: #121212;
+}
+
+.add-btn:hover {
+  background-color: #c0d036;
+}
+
+.delete-btn {
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background-color: #ff3333;
+}
+
+.post-btn {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.post-btn:hover {
+  background-color: #0066cc;
+}

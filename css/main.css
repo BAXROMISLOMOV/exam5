@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+  
+}
+body {
+
+  background-color: #121212;
+  }
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top:88px;
+    padding-left: 105px;
+    padding-right: 75px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 54px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:  rgba(148, 148, 148, 1);
+    font-size: 25px;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  nav a:active {
+    color: #fff;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid #fff;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .content {
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: Montserrat;
+  }
+  
+  p {
+    margin: 20px 0;
+    color: #ccc;
+    font-family: Montserrat;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #aboutBtn {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #portfolioBtn {
+    background-color: yellow;
+    color: #000;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .socials img {
+    width: 40px;
+    height: 40px;
+    
+  }
+  .profile-pic{
+    margin-left: 40px;
+  }
+  .profile-pic img {
+    width: 492px; 
+    height: 441px ;
+    border-radius: 50%;
+    margin-right: 50px;
+  }
+  nav ul li a.active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  input#textInput {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+  }

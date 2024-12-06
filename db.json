@@ -1,0 +1,102 @@
+{
+  "home": {
+    "title": "Welcome to My Portfolio",
+    "subtitle": "Crafting web solutions with passion and precision",
+    "heroImage": "https://via.placeholder.com/1920x1080",
+    "description": "Explore my journey, dive into my projects, and feel free to reach out. This space is where creativity meets technology.",
+    "ctaButton": {
+      "text": "View My Work",
+      "link": "/portfolio"
+    }
+  },
+  "portfolio": [],
+  "setup": {
+    "theme": "dark",
+    "language": "en",
+    "primaryColor": "#1e90ff",
+    "contactEmail": "your-email@example.com",
+    "socialLinks": {
+      "github": "https://github.com/username",
+      "linkedin": "https://linkedin.com/in/username",
+      "twitter": "https://twitter.com/username"
+    }
+  },
+  "aboutme": {
+    "item": {
+      "item": {
+        "item": {
+          "item": {
+            "name": "Jane Doe",
+            "bio": "A creative and detail-oriented web developer with a knack for building dynamic and visually appealing web solutions.",
+            "experience": [
+              {
+                "role": "Frontend Developer",
+                "company": "Tech Solutions Inc.",
+                "duration": "Jan 2020 - Present",
+                "responsibilities": [
+                  "Developed responsive web designs using React and Tailwind CSS.",
+                  "Collaborated with cross-functional teams to ensure seamless project delivery.",
+                  "Optimized website performance for improved user experience."
+                ]
+              },
+              {
+                "role": "Web Developer Intern",
+                "company": "Startup Hub",
+                "duration": "May 2019 - Dec 2019",
+                "responsibilities": [
+                  "Built landing pages and prototypes for startup clients.",
+                  "Integrated APIs to enhance functionality.",
+                  "Conducted user testing to ensure design responsiveness."
+                ]
+              }
+            ],
+            "skills": [
+              "JavaScript",
+              "React",
+              "Node.js",
+              "CSS",
+              "HTML",
+              "REST APIs",
+              "Git"
+            ],
+            "image": "https://via.placeholder.com/150"
+          },
+          "name": "Jane Doe",
+          "job": "",
+          "bio": "A creative and detail-oriented web developer with a knack for building dynamic and visually appealing web solutions."
+        },
+        "name": "Janadwdawdade Doe",
+        "job": "",
+        "bio": "A creative and detail-oriented web developer with a knack for building dynamic and visually appealing web solutions."
+      },
+      "name": "Janadwdawdade Doe",
+      "job": "adwfdwdadwawda",
+      "bio": "A creative and detail-oriented web developer with a knack for building dynamic and visually appealing web solutions."
+    },
+    "name": "Janadwdawdade Doe",
+    "job": "adwfdwdadwawda",
+    "bio": "A creative and detail-oriented web developer with a knack for building dynamic and visually appealing web solutions."
+  },
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "role": "Project Manager, TechCorp",
+      "message": "Jane's dedication and attention to detail are exceptional. She always delivers beyond expectations!",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Emily Davis",
+      "role": "CEO, Startup Co.",
+      "message": "Working with Jane was a pleasure. Her ability to solve complex problems is unmatched.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "contact": {
+    "email": "your-email@example.com",
+    "phone": "+123-456-7890",
+    "address": "123 Developer Lane, Tech City, TX, 12345",
+    "mapLink": "https://maps.google.com"
+  }
+}
